@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\font files">
+      <UniqueIdentifier>{dfd4920a-57ee-4ef4-bffa-9dc4ef6ec927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui Dep">
+      <UniqueIdentifier>{9f2bd0ba-4d97-40d6-bd86-e1ae03a33c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\classes">
+      <UniqueIdentifier>{641dbb44-389b-40ce-a002-21240e31103b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\login">
+      <UniqueIdentifier>{0ba57e6b-71bf-49ec-af5a-349a5f99f33b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="iconhashes.hpp">
+      <Filter>sources\font files</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes.hpp">
+      <Filter>sources\font files</Filter>
+    </ClInclude>
+    <ClInclude Include="imspinner.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>ImGui Dep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>ImGui Dep</Filter>
+    </ClInclude>
+    <ClInclude Include="style.h">
+      <Filter>sources\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>sources\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="buffers.h">
+      <Filter>sources\login</Filter>
+    </ClInclude>
+    <ClInclude Include="loader.h">
+      <Filter>sources\classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>ImGui Dep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>ImGui Dep</Filter>
+    </ClCompile>
+    <ClCompile Include="loader.cpp">
+      <Filter>sources\classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
